@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.487fbc5f.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.c61b23b9.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c61b23b9.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7530632e.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7530632e.js.map",
+    "static/js/2.2251996d.chunk.js": "/react-portfolio/static/js/2.2251996d.chunk.js",
+    "static/js/2.2251996d.chunk.js.map": "/react-portfolio/static/js/2.2251996d.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.487fbc5f.chunk.css.map": "/react-portfolio/static/css/main.487fbc5f.chunk.css.map",
+    "static/js/2.2251996d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.2251996d.chunk.js.LICENSE.txt",
+    "static/media/air-quality.6acc68a7.jpg": "/react-portfolio/static/media/air-quality.6acc68a7.jpg",
+    "static/media/hero-bg.000e1b5f.jpg": "/react-portfolio/static/media/hero-bg.000e1b5f.jpg",
+    "static/media/portfolio-self-picture.432f5cdc.jpg": "/react-portfolio/static/media/portfolio-self-picture.432f5cdc.jpg",
+    "static/media/workout-tracker.12d25a7d.jpg": "/react-portfolio/static/media/workout-tracker.12d25a7d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7530632e.js",
+    "static/js/2.2251996d.chunk.js",
+    "static/css/main.487fbc5f.chunk.css",
+    "static/js/main.c61b23b9.chunk.js"
+  ]
+}
