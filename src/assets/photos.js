@@ -2,7 +2,7 @@ import hero from './hero-bg.jpg';
 import air from './air-quality.jpg';
 import workout from './workout-tracker.jpg';
 import cleanfreak from './cleanfreak.jpg';
-import { clean } from 'gh-pages';
+
 const photos = [
     {
         id: 1,
