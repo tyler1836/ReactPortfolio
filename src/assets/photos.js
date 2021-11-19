@@ -1,6 +1,7 @@
 import hero from './hero-bg.jpg';
 import air from './air-quality.jpg';
 import workout from './workout-tracker.jpg';
+import { clean } from 'gh-pages';
 const photos = [
     {
         id: 1,
@@ -22,6 +23,13 @@ const photos = [
         name: 'Workout Tracker',
         text: 'A full stack application with sign up and login. Once logged in keep track of workouts through your dashboard thats tailored to you specifically',
         url: 'https://blooming-shelf-02541.herokuapp.com/'
+    },
+    {
+        id: 4,
+        image: clean,
+        name: 'Clean Freak',
+        text: 'A MERNG full stack application for buying house cleaning packages',
+        url: 'https://cleaning-freak.herokuapp.com/'
     }
 ]
 

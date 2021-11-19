@@ -1,6 +1,6 @@
 :root{
   --clr-primary: #5d5c61;
-  --clr-primary-2: rgb(81, 95, 102);
+  --clr-primary-2: #4e4e50;
   --clr-primary-3: #7395ae;
   --clr-primary-4: #557a95;
   --clr-primary-5: #b1a296;
@@ -12,7 +12,7 @@ body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--clr-primary);
+  background: linear-gradient(45deg, var(--clr-primary-4) 10%, var(--clr-primary-2) 60%);
   color: var(--clr-primary-3);
   
 }
@@ -33,6 +33,7 @@ code {
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
+  
 
 }
 header h1{
@@ -51,11 +52,6 @@ aside ul li button{
 aside form{
   line-height: 2;
 }
-aside form input{
-  padding: 10px;
-  margin: 5px 0;
-
-}
 .email-form{
   display: none;
 }
@@ -66,6 +62,62 @@ aside form input{
 }
 .pagelinks{
   list-style: none;
+}
+.contact-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 320px;
+
+}
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+.input {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+.submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.submit:active {
+  background-color: #06b;
 }
 figure{
   display: grid;
@@ -82,3 +134,8 @@ figure{
 .picture a:hover{
   transform: scale(1.2);
 }
+footer p{
+  font-size: 12px;
+  color: #b1a296;
+}
+
