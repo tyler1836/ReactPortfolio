@@ -13,7 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(45deg, var(--clr-primary-4) 10%, var(--clr-primary-2) 60%);
-  color: var(--clr-primary-3);
+  color: var(--clr-primary-5);
   
 }
 
@@ -33,11 +33,30 @@ code {
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
-  
-
+}
+header ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  list-style: none;
+  align-items: flex-end;
 }
 header h1{
   margin-left: 25px;
+}
+.about{
+  margin: 25px 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-shadow: 1px 0 1px var(--clr-primary-4);
+}
+.about h2{
+  font-size: 1.1rem;
+}
+#about{
+  margin-bottom: 25px;
+  font-size: 1.2rem;
 }
 aside ul li{
   list-style: none;

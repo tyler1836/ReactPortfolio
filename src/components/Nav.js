@@ -22,8 +22,8 @@ function Nav(){
         <div>
         <header class='navigation'>
             <h1>Tyler Roll <br /> <img src={photo} alt="profile" class='profile' /></h1>
-            <h1>Portfolio</h1>
-            <nav>
+            {/* <h2>Portfolio</h2> */}
+            
                 <ul class='pagelinks'>
                     {tabs.map(tab => (
                    <li class='nav-item'>
@@ -35,7 +35,7 @@ function Nav(){
                    </li>
                     ))}
                 </ul>
-            </nav>
+            
         </header>
         <main>
             {renderPage(currentPage)}
