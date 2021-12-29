@@ -21,7 +21,7 @@ function Nav(){
     return(
         <div>
         <header class='navigation'>
-            <h1>Tyler Roll <br /> <img src={photo} alt="profile" class='profile' /></h1>
+            <h1>Tyler Roll</h1>
             {/* <h2>Portfolio</h2> */}
             
                 <ul class='pagelinks'>
@@ -37,9 +37,9 @@ function Nav(){
                 </ul>
             
         </header>
-        <main>
+        <div className='current'>
             {renderPage(currentPage)}
-        </main>
+        </div>
     </div>
     )
 }

@@ -7,14 +7,14 @@ const photos = [
     {
         id: 1,
         image: hero,
-        name: 'Run Buddy:', 
+        name: 'Run Buddy', 
         text: 'A mock up of a workout subscription service website',
         url: 'https://tyler1836.github.io/Run-Buddy/'
     },
     {
         id: 2,
         image: air,
-        name: 'Air quality:',
+        name: 'Air quality',
         text: 'Check your city\'s air quality forecast',
         url: 'https://zunaty.github.io/air-quality/'
     },

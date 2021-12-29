@@ -8,10 +8,9 @@ function Projects(){
                
                return( 
                <div className='picture'>
-                   <img src={project.image} alt={project.text} />
-                    <br />
                     <a href={project.url} target='_blank' rel='noopener noreferrer'>{project.name}</a>
-                    <p>{project.text}</p>
+                    <p className='img-desc'>{project.text}</p>
+                   <img src={project.image} alt={project.text} />
                </div>
                )
            }))}

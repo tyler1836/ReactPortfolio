@@ -5,10 +5,10 @@ import "@material-tailwind/react/tailwind.css";
 
 function App() {
   return ( 
-    <div>
+    <main>
       <Nav />
       <Footer />
-      </div>
+      </main>
   );
 }
 
