@@ -22,7 +22,7 @@ const photos = [
         id: 3,
         image: workout,
         name: 'Workout Tracker',
-        text: 'A full stack application with sign up and login. Once logged in keep track of workouts through your dashboard thats tailored to you specifically',
+        text: 'Beautiful designed workout tracker. Built with Node, Express, MySQL2, and JavaScript. Sign up and edit your own workouts with a short description and title and see them saved to your own dashboard.',
         url: 'https://blooming-shelf-02541.herokuapp.com/'
     },
     {
